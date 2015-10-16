@@ -17,13 +17,9 @@
         android:contentDescription=""
         android:src="@android:drawable/ic_btn_speak_now" />
 
-    <TextView
-        android:id="@+id/txtText"
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:id="@+id/listView" />
 
 </LinearLayout>
